@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/v4-shims.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com">  -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/v4-shims.css">
     <link rel="shortcut icon" href="./images/favicon.ico">
@@ -29,7 +29,7 @@
 </head>
 <body>
     <div class="me">
-        <h1 class="title">Daniel Ciciliani</h1>
+        <h1 class="title"><span class="dc">[DC]</span>code</h1>
         <h2 class="subtitle">web & iOS developer</h2> 
         <div class="logo">
             <img class="fox" src="./images/fox-logo-transparent1.png" alt="">   
@@ -42,3 +42,34 @@
 </body>
 <script src="./js/particles.js"></script>
 <script src="./js/app.js"></script>
+<script>
+var textoA='web & iOS developer';
+var time=70;
+var z=0;
+var newtext='';
+hacemos();
+var dire=1;
+function hacemos(){
+	dire=1;
+	newtext=newtext+textoA.substring(z,z+1);
+	z++;
+		setTimeout(function(){
+			document.getElementById('hacemos').innerHTML=newtext+'|';
+			if(z<textoA.length){hacemos()} else{
+				setTimeout(function(){
+					hacemosReverse();
+				},1000)
+				}
+		},time)
+}
+function hacemosReverse(){
+	z--;
+	dire=0;
+	newtext=newtext.substring(0,newtext.length-1);
+		setTimeout(function(){
+			document.getElementById('hacemos').innerHTML=newtext+'|';
+			if(z>0){hacemosReverse()}else{hacemos()}
+		},time)
+}
+
+</script>
