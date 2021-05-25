@@ -16,6 +16,7 @@ html{
     overflow-x: hidden;
     width: 100%;
     /* color: #605e5e; */
+    background-color: #f9c546;
 }
 body {
   margin: 0;
@@ -44,25 +45,15 @@ body {
     /* background-image: linear-gradient(to bottom right , black 35%, #ff5500, white 80%); */
     /* background-image: linear-gradient(to bottom right , #ff5500 20%, white 90%); */
     background-image: linear-gradient(to bottom right, #8cca1e, white);
-
-
-
-
-
-
-
-
-
-
-
 }
+
 .me{
     width: 100%;
     display: block;   
     margin-left: 25px;
     position: absolute;
     /* color: white; */
-    margin: 40vh 1%;
+    margin: 1vh 1%;
 }
 .dc{
     color: white;
@@ -89,7 +80,7 @@ body {
 .logo img{
     /* position: fixed; */
     display: flex;
-    width: 25%;
+    width: 5%;
     /* size: 20vh; */
     /* width: 20vh */
     margin-left: auto;
@@ -97,6 +88,84 @@ body {
     margin-top: 5%;
     padding: 80px 6%;
 }
+
+/* .wave{
+    display: inline-block;
+}
+nav{
+    display: flex;
+}
+ul li{
+    display: inline-block;
+}
+.main-logo img{
+    width: 100px;
+    margin-left: 25px;
+} */
+.wave sgv{
+    display: flex;
+    margin-top: -200px;
+    position: absolute;
+
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: #606060;
+}
+.navbar ul{
+    /* width: 40%; */
+    /* margin-left: auto; */
+    display: flex;
+    margin-right: 0;
+    text-align: end;
+justify-content: space-around;
+    /* margin-right: auto; */
+    /* margin: 50% auto; */
+    /* padding-right: 40px; */
+    /* justify-content: space-between; */
+    /* background-color: orange; */
+    margin-top: 30px;
+  }
+  .navbar ul li{
+    display: inline;
+    /* background-color: palegreen; */
+    font-size: 1.5rem;
+    color: white;
+    padding: 20px;
+  }
+  .main-logo img{
+    width: 100px;
+    /* margin-left: 80px; */
+    margin: 10px 80px;
+}
+
+navnn{
+    float: left;
+    width: 100%;
+}
+navnn ulnn{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 4%;
+    font-size: 1.5rem;
+    transition: 1s;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+navnn ulnn linn{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+
+
+
 
 @media (max-width: 1024px){
     .me{

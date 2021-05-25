@@ -25,6 +25,16 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+/* 
+colores a utilizar:
+
+
+
+
+*/
+
+
 #particles-js{
     width: 100%;
     height: 110vh;
@@ -42,8 +52,9 @@ body {
     /* background-image: linear-gradient(to bottom right , black 35%, #ff5500, white 80%); */
     /* background-image: linear-gradient(to bottom right, #f12711, #f5af19); */
     /* background-image: linear-gradient(to bottom right , black 35%, #ff5500, white 80%); */
-    /* background-image: linear-gradient(to bottom right , #ff5500 20%, white 90%); */
-    background-image: linear-gradient(to bottom right, #8cca1e, white);
+    background-image: linear-gradient(to bottom right , #ff5500 20%, white 99%);
+    background-image: linear-gradient(to bottom right , #ff5500 1%, #ec5607 20%, white 99%);
+    
 
 
 
