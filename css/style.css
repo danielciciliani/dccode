@@ -36,7 +36,7 @@ blanco: #ffffff
     background-color: black;
 }
 .me{
-    width: 100%;
+    width: 40%;
     display: block;   
     margin-left: 25px;
     position: absolute;
@@ -49,44 +49,59 @@ blanco: #ffffff
 }
 .title{
     margin-left: 45px;
-    color: black;
-    /* letter-spacing: 5px; */
+    color: white;
+    font-size: 6rem;
     font-weight: 700;
 }
 .subtitle{
-    color: white;
+    color: #f36f40;
     font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
     margin-left: 45px;
-    letter-spacing: 7px;
+    letter-spacing: 8px;
     font-weight: 400;
     position: relative;
     top: 100px;
 }
 .logo{
-width:10%;
-height: auto;
-position: absolute;
-top: 80vh;
-left: 85vw;
-
-  /* display: ; */
+    width:10%;
+    height: auto;
+    position: absolute;
+    top: 80vh;
+    left: 85vw;
 }
 .panda{
     /* position: absolute; */
     width: 100%;
     height: 100%;
     /* left: 20%; */
-
+    /* animation: EntryLogo  0.8s;
+    animation-delay: 1s;
+    transform: scale(0);
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; */
 }
 
 @media (max-width: 1024px){
     .me{
-        width: 60%;
+        width: 100%;
     }
     .logo{
-        width: 50%;
+        width: 30%;
+        position: absolute;
+        top: 85vh;
+        left: 60vw;
     }
-    .fox{
-        width: 100%;
+    .title{
+        font-size: 4rem;
+    }
+    .subtitle{
+        font-size: 1.4rem;
+        letter-spacing: 8px;
+        font-weight: 400;
+        position: relative;
+        top: 75px;
+    }
+    .panda{
+        /* width: 100%; */
     }

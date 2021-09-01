@@ -35,21 +35,22 @@
 
 </head>
 <body>
-    <div class="me" style="width: 40%;">
-        <h1 class="title"><span class="dc" style="position: absolute">ailurü</span></h1>
-        <h2 class="subtitle" style="color: #f36f40;">web & iOS development</h2> 
+<main>
+    <div class="me" style="">
+        <h1 class="title" style="position: absolute">ailurü</h1>
+        <h2 id="hacemos" class="subtitle" style="color: #f36f40;">web & iOS development_</h2> 
     </div>
     <div class="logo" style="">
         <img class="panda" src="./images/ailuru-logo-transparent1.png" alt="">   
     </div>
     <div id="particles-js"></div>
-    
+</main>
    
 </body>
 <script src="./js/particles.js"></script>
 <script src="./js/app.js"></script>
 <script>
-var textoA='web & iOS developer';
+var textoA='web & iOS development';
 var time=70;
 var z=0;
 var newtext='';
@@ -68,14 +69,14 @@ function hacemos(){
 				}
 		},time)
 }
-function hacemosReverse(){
-	z--;
-	dire=0;
-	newtext=newtext.substring(0,newtext.length-1);
-		setTimeout(function(){
-			document.getElementById('hacemos').innerHTML=newtext+'|';
-			if(z>0){hacemosReverse()}else{hacemos()}
-		},time)
-}
+// function hacemosReverse(){
+// 	z--;
+// 	dire=0;
+// 	newtext=newtext.substring(0,newtext.length-1);
+// 		setTimeout(function(){
+// 			document.getElementById('hacemos').innerHTML=newtext+'|';
+// 			if(z>0){hacemosReverse()}else{hacemos()}
+// 		},time)
+// }
 
 </script>
