@@ -47,23 +47,21 @@ blanco: #ffffff
     color: white;
     font-size: 6rem;
 }
-.me h1{
+.title{
     margin-left: 45px;
     color: black;
     /* letter-spacing: 5px; */
     font-weight: 700;
 }
-.me h2{
+.subtitle{
+    color: white;
+    font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
     margin-left: 45px;
-    letter-spacing: 10px;
-    font-weight: lighter;
-    color: black;
+    letter-spacing: 7px;
+    font-weight: 400;
     position: relative;
     top: 100px;
-}
-.subtitle h2{
-    color: white;
 }
 .logo{
 width:10%;
