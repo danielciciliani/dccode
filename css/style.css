@@ -4,18 +4,14 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Nunito Sans', sans-serif;
 }
 html{
-    /* font-family: 'Open Sans', sans-serif; */
-    /* margin: 0 auto; */
     font-size: 100%;
     font-family: century;
     scroll-behavior: smooth;
     overflow-x: hidden;
     width: 100%;
-    /* color: #605e5e; */
 }
 body {
   margin: 0;
@@ -25,47 +21,19 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
-
 /* 
 colores a utilizar:
-
-
-
-
+naranja: #f36f40
+negro: #180607
+negro-negro: #000000
+blanco: #ffffff 
 */
-
-
 #particles-js{
     width: 100%;
     height: 110vh;
-    /* background-image: linear-gradient(to bottom right, #ff5500 , #ec5607, orange); */
-    /* background-image: linear-gradient(to bottom right, #ff5500 , #ec5607, orange, white); */
-    /* background-image: linear-gradient(to bottom right, black 25%, white, #ff5500); */
-    /* background-image: linear-gradient(to bottom right, black 20%, #ff5500,#ec5607, orange, white); */
-    /* background-image: linear-gradient(to bottom right, black 1%, blue, white 75%); */
-    /* background-image: linear-gradient(to bottom right, black 1%, blue,#ff5500 75%); */
-    /* background-image: linear-gradient(to bottom right, black 25%, white,#ff5500 40%, white 97%); */
-    /* background-image: linear-gradient(to top right, black 30%,#ff5500 75%, white); */
-    /* background-image: linear-gradient(to bottom , black 20%, blue, white); */
-    /* background-image: linear-gradient(to bottom , black 30%, blue, white 90%); */
-    /* background-image: linear-gradient(to bottom right , black 35%, blue, white 80%); */
-    /* background-image: linear-gradient(to bottom right , black 35%, #ff5500, white 80%); */
-    /* background-image: linear-gradient(to bottom right, #f12711, #f5af19); */
-    /* background-image: linear-gradient(to bottom right , black 35%, #ff5500, white 80%); */
-    background-image: linear-gradient(to bottom right , #ff5500 20%, white 99%);
-    background-image: linear-gradient(to bottom right , #ff5500 1%, #ec5607 20%, white 99%);
-    
-
-
-
-
-
-
-
-
-
-
-
+    /* background-image: linear-gradient(to bottom right , black 30%, #65e4c7, white); */
+    /* background-color: #f36f40; */
+    background-color: black;
 }
 .me{
     width: 100%;
@@ -77,14 +45,12 @@ colores a utilizar:
 }
 .dc{
     color: white;
-    font-size: 4rem;
+    font-size: 6rem;
 }
 .me h1{
-    font-size: 4rem;
-    /* text-transform: uppercase; */
     margin-left: 45px;
     color: black;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     font-weight: 700;
 }
 .me h2{
@@ -93,20 +59,27 @@ colores a utilizar:
     letter-spacing: 10px;
     font-weight: lighter;
     color: black;
+    position: relative;
+    top: 100px;
+}
+.subtitle h2{
+    color: white;
 }
 .logo{
-  width: 100%;
+width:10%;
+height: auto;
+position: absolute;
+top: 80vh;
+left: 85vw;
+
+  /* display: ; */
 }
-.logo img{
-    /* position: fixed; */
-    display: flex;
-    width: 25%;
-    /* size: 20vh; */
-    /* width: 20vh */
-    margin-left: auto;
-    /* margin-top: -20%; */
-    margin-top: 5%;
-    padding: 80px 6%;
+.panda{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    /* left: 20%; */
+
 }
 
 @media (max-width: 1024px){
